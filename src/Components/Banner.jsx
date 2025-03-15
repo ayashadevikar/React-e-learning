@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerPng from "../assets/banner.png";
+import { FaBookReader } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -16,7 +17,20 @@ const Banner = () => {
                      <h1 className='text-3xl md:text-4xl font-bold !leading-snug'>
                         The World's Leading Online learning Platform 
                      </h1>
-               
+                   <div className='flex items-center gap-4 p-6 bg-#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl'>
+                      <FaBookReader className="text-2xl" />
+                      <p className='text-lg'>10,000+ Courses</p>
+                   </div>
+
+                   <div className='flex items-center gap-4 p-6 bg-#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl'>
+                      <FaBookReader className="text-2xl" />
+                      <p className='text-lg'>Expert Instruction</p>
+                   </div>
+
+                   <div className='flex items-center gap-4 p-6 bg-#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl'>
+                      <FaBookReader className="text-2xl" />
+                      <p className='text-lg'>Lifetime Access</p>
+                   </div>
                 </div>
             </div>
         </div>

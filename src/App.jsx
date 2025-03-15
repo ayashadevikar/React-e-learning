@@ -3,6 +3,9 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import Banner from "./Components/Banner";
+import Subscribe from "./Components/Subscribe";
+import Footer from "./Components/Footer";
+import Banner2 from "./Components/Banner2";
 
 
 
@@ -15,6 +18,10 @@ function App() {
       <Hero />
      <Services />
      <Banner />
+     <Subscribe />
+     <Banner2 />
+     <Footer />
+
     </main>
   )
 }

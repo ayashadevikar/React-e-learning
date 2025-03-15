@@ -14,7 +14,7 @@ const Services = () => {
        <div className="container pb-14 pt-16">
           <h1 className='text-4xl font-bold text-left pb-10'>Services we provide</h1>
          
-         <div className='flex gap-4'>
+         <div className='flex flex-wrap md:flex gap-4'>
         
              <div className='flex flex-col items-center bg-[#f4f4f4] rounded-2xl p-4 py-7 hover:bg-white hover:scale-110 duration-300 hover:shadow-2xl'>
                  <TbWorldWww className='text-4xl mb-4 '/>
