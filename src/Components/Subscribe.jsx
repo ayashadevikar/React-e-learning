@@ -8,7 +8,7 @@ const Subscribe = () => {
         <div className="container py-24 md:py-48">
           <div className='flex flex-col justify-center'>
               <div className="text-center space-y-4 lg:max-w-[430px] mx-auto">
-                <h1 className="text-4xl font-bold !leading-snug">
+                <h1 className="md:text-4xl font-bold !leading-snug">
                   450K+ Students are learning from us
                </h1>
                  <p>

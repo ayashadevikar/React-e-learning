@@ -4,7 +4,7 @@ import { TbWorldWww } from "react-icons/tb";
 
 const Footer = () => {
     return (
-    <section className='flex flex-col gap-4 md:flex justify-around p-20'>
+    <section className='flex justify-around p-20 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 text-center sm:text-left'>
           <div className='flex flex-col gap-4'>
               <h1 className="text-2xl font-bold">The Coding Journey</h1>
               <p className="text-dark2 flex flex-wrap md:w-[16rem]">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col gap-4'>
-               <h1 className="text-2xl font-bold">Get In Touch</h1>
+               <h1 className="md:text-2xl font-bold">Get In Touch</h1>
                <div className="flex items-center">
                  <input
                         type="text"
@@ -65,7 +65,7 @@ const Footer = () => {
              </div>
           
 
-            <div className='flex flex-wrap md:flex gap-8'>
+            <div className='flex gap-8'>
                     <a href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0">
                        <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                     </a>
